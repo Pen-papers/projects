@@ -1,0 +1,84 @@
+body {
+  height: 100vh;
+  background-image: url('assets/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  h1 {
+    border: 3px solid red;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  h5 {
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+  }
+  a {
+    margin-left: 120px;
+
+    &:hover {
+      color: rgb(230, 159, 53);
+    }
+  }
+  button {
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+    background-color: rgb(160, 227, 250);
+    height: 50px;
+    width: 110px;
+    margin-top: 20px;
+    &:hover {
+      background-color: rgb(237, 108, 108);
+    }
+  }
+  .d1 {
+    border: solid rgb(52, 46, 60);
+    width: 600px;
+    display: block;
+    margin: 10px auto;
+    background-color: white;
+    height: 500px;
+    h1 {
+      text-align: center;
+      color: brown;
+    }
+    .d2 {
+      border: 3px solid red;
+      border-radius: 20px;
+      padding-top: 25px;
+      padding-bottom: 25px;
+      margin-left: 10px;
+      margin-right: 10px;
+      height: 290px;
+    }
+  }
+  .check {
+    margin-left: 100px;
+  }
+  .checkbox {
+    height: 20px;
+    width: 20px;
+    &:hover {
+      height: 25px;
+      width: 25px;
+      transition: 0.9s;
+    }
+  }
+  .name,
+  .pass {
+    display: block;
+    margin: 10px auto;
+    height: 50px;
+    width: 400px;
+    border-radius: 20px;
+    padding-left: 10px;
+  }
+  ::placeholder {
+    padding-left: 5px;
+    font-size: large;
+  }
+}
